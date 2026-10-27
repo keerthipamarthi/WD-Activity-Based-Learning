@@ -1,0 +1,95 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: whitesmoke;
+color: black;
+}
+
+header {
+background-color: green;
+color: white;
+text-align: center;
+padding: 25px;
+}
+
+header h1 {
+margin-bottom: 10px;
+}
+
+nav {
+background-color: black;
+padding: 15px;
+text-align: center;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 15px;
+}
+
+nav a:hover {
+color: yellow;
+}
+
+section {
+padding: 30px;
+text-align: center;
+}
+
+section h2 {
+color: green;
+}
+
+.container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card {
+background-color: white;
+width: 200px;
+padding: 20px;
+margin: 10px;
+border-radius: 8px;
+box-shadow: 0 2px 5px gray;
+}
+
+.card h3 {
+color: green;
+}
+
+.card p {
+line-height: 1.5;
+}
+
+#tips {
+background-color: lightgreen;
+}
+
+#tips ul {
+display: inline-block;
+text-align: left;
+line-height: 2;
+}
+
+footer {
+background-color: green;
+color: white;
+text-align: center;
+padding: 15px;
+}
+
+@media (max-width: 600px) {
+nav a {
+display: inline-block;
+margin: 8px;
+}
+
+.card {
+    width: 80%;
+}
+
+}
